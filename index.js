@@ -17,3 +17,8 @@ button.addEventListener("click", (e) => {
 
   cards.style.display = newModal ? "grid" : "none";
 });
+
+document.querySelector("form").addEventListener("submit", (e) => {
+  e.preventDefault();
+  e.target.reset();
+});

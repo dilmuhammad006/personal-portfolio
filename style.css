@@ -57,9 +57,10 @@ a {
 .hero a:hover {
   opacity: 0.9;
 }
-.projects-grid {
+.projects-grid,
+.more-card {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
   gap: 2rem;
 }
 .project-card {
@@ -72,6 +73,7 @@ a {
   width: 100%;
   border-radius: 8px;
   margin-bottom: 1rem;
+  height: 250px;
 }
 .project-card h3 {
   font-size: 1.2rem;
@@ -139,4 +141,9 @@ a {
 .tech-card:hover {
   transform: translateY(-5px);
   background-color: #2b2b2b;
+}
+.more {
+  text-align: end;
+  cursor: pointer;
+  margin-top: 20px;
 }

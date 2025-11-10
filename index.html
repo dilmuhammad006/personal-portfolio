@@ -1,155 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Full-Stack Developer Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Full-Stack Developer Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./style.css">
-</head>
+  <body>
+    <!-- Home Section -->
+    <section class="hero">
+      <img src="./public/me.png" alt="Profile Photo" />
+      <h1>Hi, I'm Dilmuhammad</h1>
+      <p>Full-stack developer building modern, clean, scalable apps.</p>
+      <a href="#projects">View Projects</a>
+    </section>
 
-<body>
-  <!-- Home Section -->
-  <section class="hero">
-    <img src="./public/me.png" alt="Profile Photo" />
-    <h1>Hi, I'm Dilmuhammad</h1>
-    <p>Full-stack developer building modern, clean, scalable apps.</p>
-    <a href="#projects">View Projects</a>
-  </section>
-
-  <!-- Technologies & Languages Section -->
-  <section class="container" id="technologies" style="margin-top:4rem;">
-    <h2 style="text-align:center; font-size: 2rem; margin-bottom: 2rem;">Technologies & Languages</h2>
-    <div class="tech-grid">
-      <div class="tech-card">HTML</div>
-      <div class="tech-card">CSS</div>
-      <div class="tech-card">JavaScript</div>
-      <div class="tech-card">TypeScript</div>
-      <div class="tech-card">React</div>
-      <div class="tech-card">Node.js</div>
-      <div class="tech-card">Express</div>
-      <div class="tech-card">MongoDB</div>
-      <div class="tech-card">PostgreSQL</div>
-      <div class="tech-card">Git</div>
-      <div class="tech-card">Docker</div>
-      <div class="tech-card">Nestjs</div>
-      <div class="tech-card">GitHub</div>
-      <div class="tech-card">TailwindCss</div>
-      <div class="tech-card">Sass</div>
-      <div class="tech-card">Material UI</div>
-      <div class="tech-card">MySql</div>
-      <div class="tech-card">Prisma ORM</div>
-    </div>
-  </section>
-
-
-  <!-- Projects Section -->
-  <section class="container" id="projects">
-    <h2 style="text-align:center; font-size: 2rem; margin-bottom: 2rem;">Projects</h2>
-    <div class="projects-grid">
-      <div class="project-card">
-        <img src="./public/portfolio.png" alt="Project Screenshot">
-        <h3>Portfolio Website</h3>
-        <p>A personal site built using HTML, CSS and JavaScript.</p>
-        <div class="tags">
-          <span>HTML</span><span>CSS</span><span>JavaScript</span>
-        </div>
-        <a href="#">GitHub</a> | <a href="https://dilmuhammads-portfolio.netlify.app/" target="_blank">Live Demo</a>
+    <!-- Technologies & Languages Section -->
+    <section class="container" id="technologies" style="margin-top: 4rem">
+      <h2 style="text-align: center; font-size: 2rem; margin-bottom: 2rem">
+        Technologies & Languages
+      </h2>
+      <div class="tech-grid">
+        <div class="tech-card">HTML</div>
+        <div class="tech-card">CSS</div>
+        <div class="tech-card">JavaScript</div>
+        <div class="tech-card">TypeScript</div>
+        <div class="tech-card">React</div>
+        <div class="tech-card">Node.js</div>
+        <div class="tech-card">Express</div>
+        <div class="tech-card">MongoDB</div>
+        <div class="tech-card">PostgreSQL</div>
+        <div class="tech-card">Git</div>
+        <div class="tech-card">Docker</div>
+        <div class="tech-card">Nestjs</div>
+        <div class="tech-card">GitHub</div>
+        <div class="tech-card">TailwindCss</div>
+        <div class="tech-card">Sass</div>
+        <div class="tech-card">Material UI</div>
+        <div class="tech-card">MySql</div>
+        <div class="tech-card">Prisma ORM</div>
       </div>
-      <div class="project-card">
-        <img src="./public/harmonix.png" alt="Project Screenshot">
-        <h3>Harmonix music platform (free)</h3>
-        <p>A personal site built using JavaScript and Nodejs.</p>
-        <div class="tags">
-          <span>HTML</span><span>CSS</span><span>JavaScript</span>
-          <span>Nodejs</span><span>ExpressJs</span><span>MongoDB</span>
-        </div>
-        <a href="#">GitHub</a> | <a href="/" target="_blank">Live Demo</a>
-      </div>
-      <div class="project-card">
-        <img src="./public/tijara.png" alt="Project Screenshot">
-        <h3>Tijara online sale platform (free)</h3>
-        <p>A personal site built using JavaScript and NestJs.</p>
-        <div class="tags">
-          <span>HTML</span><span>CSS</span><span>JavaScript</span>
-          <span>Nodejs</span><span>NestJs</span><span>PostgreSQL</span>
-        </div>
-        <a href="#">GitHub</a> | <a href="/" target="_blank">Live Demo</a>
-      </div>
-      <div class="project-card">
-        <img src="./public/code-museum.png" alt="Project Screenshot">
-        <h3>Internal code museum</h3>
-        <p>A personal site built using ReactJs and NestJs.</p>
-        <div class="tags">
-          <span>HTML</span><span>CSS</span><span>ReactJs</span>
-          <span>Nodejs</span><span>NestJs</span><span>PostgreSQL</span>
-        </div>
-        <a href="#">GitHub</a> | <a href="https://code-musuem.vercel.app/" target="_blank">Live Demo</a>
-      </div>
-    </div>
-    <p class="more">More Projects...</p>
-    <div class="more-card">
-      <div class="project-card">
-        <img src="./public/gama.png" alt="Project Screenshot">
-        <h3>Tosh qaychi</h3>
-        <p>A personal site built using java\.</p>
-        <div class="tags">
-          <span>HTML</span><span>CSS</span><span>JavaScript</span>
-        </div>
-        <a href="#">GitHub</a> | <a href="https://tosh-qaychi-phi.vercel.app/" target="_blank">Live Demo</a>
-      </div>
-      <div class="project-card">
-        <img src="./public/find-country.png" alt="Project Screenshot">
-        <h3>Find country </h3>
-        <p>A personal site built using JavaScript.</p>
-        <div class="tags">
-          <span>HTML</span><span>CSS</span><span>JavaScript</span>
-        </div>
-        <a href="#">GitHub</a> | <a href="https://find-country-brown.vercel.app/" target="_blank">Live Demo</a>
-      </div>
-      <div class="project-card">
-        <img src="./public/calculator.png" alt="Project Screenshot">
-        <h3>Simple Calculator</h3>
-        <p>A personal site built using JavaScript.</p>
-        <div class="tags">
-          <span>HTML</span><span>CSS</span><span>JavaScript</span>
-        </div>
-        <a href="#">GitHub</a> | <a href="https://simple-calculator-nine-murex.vercel.app/" target="_blank">Live
-          Demo</a>
-      </div>
-      <div class="project-card">
-        <img src="./public/random.png" alt="Project Screenshot">
-        <h3>Guess my number </h3>
-        <p>A personal site built using JavaScript.</p>
-        <div class="tags">
-          <span>HTML</span><span>CSS</span><span>JavaScript</span>
-        </div>
-        <a href="#">GitHub</a> | <a href="https://guest-my-number.vercel.app/" target="_blank">Live Demo</a>
-      </div>
+    </section>
 
-    </div>
+    <!-- Projects Section -->
+    <section class="container" id="projects">
+      <h2 style="text-align: center; font-size: 2rem; margin-bottom: 2rem">
+        Projects
+      </h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <img src="./public/portfolio.png" alt="Project Screenshot" />
+          <h3>Portfolio Website</h3>
+          <p>A personal site built using HTML, CSS and JavaScript.</p>
+          <div class="tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+          <a href="#">GitHub</a> |
+          <a href="https://dilmuhammads-portfolio.netlify.app/" target="_blank"
+            >Live Demo</a
+          >
+        </div>
+        <div class="project-card">
+          <img
+            src="./public/Screenshot 2025-11-10 at 12.04.48.png"
+            alt="Project Screenshot"
+          />
+          <h3>Task manager</h3>
+          <p>A personal site built using ReactJs and NestJs.</p>
+          <div class="tags">
+            <span>JavaScript</span><span>React</span><span>Shadcn UI</span>
+            <span>Nodejs</span><span>NestJs</span><span>PostgreSQL</span>
+          </div>
+          <a href="#">GitHub</a> |
+          <a href="https://task-manager.uz" target="_blank">Live Demo</a>
+        </div>
+        <div class="project-card">
+          <img src="./public/harmonix.png" alt="Project Screenshot" />
+          <h3>Harmonix music platform (free)</h3>
+          <p>A personal site built using JavaScript and Nodejs.</p>
+          <div class="tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            <span>Nodejs</span><span>ExpressJs</span><span>MongoDB</span>
+          </div>
+          <a href="#">GitHub</a> | <a href="/" target="_blank">Live Demo</a>
+        </div>
+        <div class="project-card">
+          <img src="./public/tijara.png" alt="Project Screenshot" />
+          <h3>Tijara online sale platform (free)</h3>
+          <p>A personal site built using JavaScript and NestJs.</p>
+          <div class="tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            <span>Nodejs</span><span>NestJs</span><span>PostgreSQL</span>
+          </div>
+          <a href="#">GitHub</a> | <a href="/" target="_blank">Live Demo</a>
+        </div>
+        <div class="project-card">
+          <img src="./public/code-museum.png" alt="Project Screenshot" />
+          <h3>Internal code museum</h3>
+          <p>A personal site built using ReactJs and NestJs.</p>
+          <div class="tags">
+            <span>HTML</span><span>CSS</span><span>ReactJs</span>
+            <span>Nodejs</span><span>NestJs</span><span>PostgreSQL</span>
+          </div>
+          <a href="#">GitHub</a> |
+          <a href="https://code-musuem.vercel.app/" target="_blank"
+            >Live Demo</a
+          >
+        </div>
+      </div>
+      <p class="more">More Projects...</p>
+      <div class="more-card">
+        <div class="project-card">
+          <img src="./public/gama.png" alt="Project Screenshot" />
+          <h3>Tosh qaychi</h3>
+          <p>A personal site built using java\.</p>
+          <div class="tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+          <a href="#">GitHub</a> |
+          <a href="https://tosh-qaychi-phi.vercel.app/" target="_blank"
+            >Live Demo</a
+          >
+        </div>
+        <div class="project-card">
+          <img src="./public/find-country.png" alt="Project Screenshot" />
+          <h3>Find country</h3>
+          <p>A personal site built using JavaScript.</p>
+          <div class="tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+          <a href="#">GitHub</a> |
+          <a href="https://find-country-brown.vercel.app/" target="_blank"
+            >Live Demo</a
+          >
+        </div>
+        <div class="project-card">
+          <img src="./public/calculator.png" alt="Project Screenshot" />
+          <h3>Simple Calculator</h3>
+          <p>A personal site built using JavaScript.</p>
+          <div class="tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+          <a href="#">GitHub</a> |
+          <a
+            href="https://simple-calculator-nine-murex.vercel.app/"
+            target="_blank"
+            >Live Demo</a
+          >
+        </div>
+        <div class="project-card">
+          <img src="./public/random.png" alt="Project Screenshot" />
+          <h3>Guess my number</h3>
+          <p>A personal site built using JavaScript.</p>
+          <div class="tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+          <a href="#">GitHub</a> |
+          <a href="https://guest-my-number.vercel.app/" target="_blank"
+            >Live Demo</a
+          >
+        </div>
+      </div>
+    </section>
 
-  </section>
-
-
-
-  <!-- Contact Section -->
-  <section class="container" id="contact" style="margin-top:4rem;">
-    <h2 style="text-align:center; font-size: 2rem; margin-bottom: 2rem;">Contact Me</h2>
-    <form class="contact-form" action="https://formspree.io/f/xldlobzg" method="POST">
-      <input type="text" placeholder="Your Name" required name="name">
-      <input type="email" placeholder="Your Email" required name="email">
-      <textarea rows="5" placeholder="Your Message" required name="message"></textarea>
-      <button type="submit">Send Message</button>
-    </form>
-    <div class="social-links">
-      <a href="https://www.linkedin.com/in/dilmuhammad-abumalikov-032706338/" target="_blank">LinkedIn</a>
-      <a href="https://github.com/dilmuhammad006" target="_blank">GitHub</a>
-      <a href="mailto:abdumalikovdilmuhammad06@example.com" target="_blank">Email</a>
-    </div>
-  </section>
-  <script src="./index.js"></script>
-</body>
-
+    <!-- Contact Section -->
+    <section class="container" id="contact" style="margin-top: 4rem">
+      <h2 style="text-align: center; font-size: 2rem; margin-bottom: 2rem">
+        Contact Me
+      </h2>
+      <form
+        class="contact-form"
+        action="https://formspree.io/f/xldlobzg"
+        method="POST"
+      >
+        <input type="text" placeholder="Your Name" required name="name" />
+        <input type="email" placeholder="Your Email" required name="email" />
+        <textarea
+          rows="5"
+          placeholder="Your Message"
+          required
+          name="message"
+        ></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <div class="social-links">
+        <a
+          href="https://www.linkedin.com/in/dilmuhammad-abumalikov-032706338/"
+          target="_blank"
+          >LinkedIn</a
+        >
+        <a href="https://github.com/dilmuhammad006" target="_blank">GitHub</a>
+        <a href="mailto:abdumalikovdilmuhammad06@example.com" target="_blank"
+          >Email</a
+        >
+      </div>
+    </section>
+    <script src="./index.js"></script>
+  </body>
 </html>
